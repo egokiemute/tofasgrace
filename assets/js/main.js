@@ -632,4 +632,9 @@
         $('.panel-sidebar-close, .sidebar-users-dashboard, .sidebar-body-overlay').addClass('active');
     });
 
+    // Get Current Year
+    $(document).ready(function() {
+        $('#year').text(new Date().getFullYear());
+    });
+
 })(jQuery);
