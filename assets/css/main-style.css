@@ -29356,6 +29356,7 @@ input[type=number] {
 }
 
 .helpful-card {
+  height: 300px;
   padding: 20px;
   border-radius: 10px;
   background-color: white;
@@ -29365,6 +29366,9 @@ input[type=number] {
   transition: 0.3s;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .helpful-card:hover {
   background-color: var(--primary);
@@ -30297,6 +30301,7 @@ input[type=number] {
   margin-top: 45px;
   color: var(--primary-title);
 }
+
 @media (max-width: 767px) {
   .blog-section .single-blog .blog-info-title {
     margin-top: 30px;
@@ -30314,8 +30319,12 @@ input[type=number] {
   color: var(--primary-title);
   font-size: 14px;
 }
+.single-blog .blog-info-title .title {
+  color: #232435;
+  font-size: 32px !important;
+}
 .blog-section .single-blog .blog-info-title .title {
-  font-size: 20px;
+  font-size: 32px;
   line-height: 1.5;
   font-weight: 700;
   color: var(--primary-title);
@@ -30323,7 +30332,7 @@ input[type=number] {
 }
 @media (max-width: 767px) {
   .blog-section .single-blog .blog-info-title .title {
-    font-size: 16px;
+    font-size: 32px;
   }
 }
 .blog-section .single-blog .blog-info-title .subtitle {
@@ -32619,7 +32628,7 @@ input[type=number] {
   background: var(--primary);
   display: inline-block;
   text-align: center;
-  height: 66px;
+  height: 10px;
   width: 70px;
   margin-bottom: 10px;
   margin-left: 10px;
@@ -36892,4 +36901,11 @@ td .user .thumb {
   width: 25px;
   height: 25px;
   overflow: hidden;
+}
+
+.-mt-40{
+  margin-top: -72px !important;
+}
+.pt-20{
+  padding-top: 20px !important;
 }
