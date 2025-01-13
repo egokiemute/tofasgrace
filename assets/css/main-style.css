@@ -30304,8 +30304,10 @@ input[type=number] {
   text-align: center;
   z-index: 3;
 }
-.blog-section .single-blog .blog-img img {
-  border-radius: 10px;
+.single-blog .blog-info img {
+  border-radius: 10px !important;
+  height: 420px !important;
+  object-fit: cover !important;
 }
 .blog-section .single-blog .blog-info-title {
   margin-top: 45px;
